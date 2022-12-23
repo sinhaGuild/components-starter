@@ -6,6 +6,7 @@ import {
   HeroSubtitle,
   HeroTitle,
   InViewSection,
+  StaggeredText,
 } from "./components";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         Another Starter template using tailwind. <br />
         Built for ease of boilerplate.{" "}
       </AnimateSubtitle>
+      <StaggeredText title="Quantum Truth is incomprehensible."/>
       <InViewSection>
         <Hero>
           <HeroTitle>
