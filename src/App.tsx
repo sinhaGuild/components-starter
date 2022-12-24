@@ -1,6 +1,7 @@
 import {
   AnimateSubtitle,
   AnimateTitle,
+  Cards,
   Container,
   Hero,
   HeroSubtitle,
@@ -12,12 +13,26 @@ import {
 function App() {
   return (
     <Container>
-      <AnimateTitle>Vite + React </AnimateTitle>
-      <AnimateSubtitle>
-        Another Starter template using tailwind. <br />
-        Built for ease of boilerplate.{" "}
-      </AnimateSubtitle>
-      <StaggeredText title="Quantum Truth is incomprehensible."/>
+      <InViewSection>
+        <AnimateTitle>Vite + React </AnimateTitle>
+        <AnimateSubtitle>
+          Another Starter template using tailwind. <br />
+          Built for ease of boilerplate.{" "}
+        </AnimateSubtitle>
+      </InViewSection>
+
+      {/* <Cards
+        labels="Epic Itihas"
+        tags="A B 99D A08"
+        subtitle="Merry Go round its round its round."
+        backgroundImage="https://i.imgur.com/mFb0rH0.jpg"
+        description="With a new line. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit exercitationem perspiciatis, enim quam, at provident non quos adipisci totam autem voluptatem aliquid corporis fugiat vitae magni. Ipsum praesentium sapiente ullam?"
+      >
+        This is a Random Card <br />
+        New Line.
+      </Cards> */}
+
+      <StaggeredText title="Quantum Truth is incomprehensible." />
       <InViewSection>
         <Hero>
           <HeroTitle>
